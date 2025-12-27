@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme{
+  --default-font-family: "Mountains of Christmas", serif;
+  --color-blue-light : #cdf0ff;
+  --color-blue-dark: #005b80;
+  --color-brown-text : #704528;
+}
