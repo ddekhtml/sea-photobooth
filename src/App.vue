@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="text-blue-dark">halo dede</div>
+  <router-view></router-view>
 </template>
 
 <style scoped>

@@ -1,8 +1,30 @@
 @import "tailwindcss";
 
 @theme{
-  --default-font-family: "Mountains of Christmas", serif;
+  --default-font-family: "Mali", serif;
   --color-blue-light : #cdf0ff;
   --color-blue-dark: #005b80;
   --color-brown-text : #704528;
+  --animate-fish: fish 10s linear 0s infinite;
+  --animate-fish-15s: fish 15s linear 0s infinite;
+  --animate-fish-reverse: fish-reverse 15s linear 0s infinite;
+  --animate-fish-reverse-delay: fish-reverse 15s linear 1s infinite;
+  @keyframes fish {
+    from {
+      transform: translateX(-100vw);
+    }
+    to {
+      transform: translateX(100vw);
+    }
+  }
+
+  @keyframes fish-reverse {
+    from {
+      transform: translateX(100vw);
+    }
+    to {
+      transform: translateX(-100vw);
+    }
+  }
+
 }
